@@ -19,7 +19,7 @@ def cursos(req):
 
 def inicio(req):
 
-    return render(req, "index.html")
+    return render(req, "inicio.html")
 
 def cursos(req):
 
