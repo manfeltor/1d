@@ -17,3 +17,21 @@ def cursos(req):
 
     return render(req, "C1.html", {"listaC": lista})
 
+def inicio(req):
+
+    return HttpResponse('vista de inicio')
+
+def cursos(req):
+
+    return HttpResponse('vista de cursos')
+
+def profesores(req):
+
+    return HttpResponse('vista de profesores')
+
+def estudiantes(req):
+
+    return HttpResponse('vista de estudiantes')
+
+
+
