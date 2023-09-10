@@ -19,7 +19,7 @@ from django.urls import path
 from Cod1App.views import inicio, profesores, cursos, estudiantes
 
 urlpatterns = [
-    path('/', inicio),
+    path('', inicio),
     path('profesores/', profesores),
     path('cursos/', cursos),
     path('estudiantes/', estudiantes),

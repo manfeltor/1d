@@ -19,19 +19,19 @@ def cursos(req):
 
 def inicio(req):
 
-    return HttpResponse('vista de inicio')
+    return render(req, "inicio.html")
 
 def cursos(req):
 
-    return HttpResponse('vista de cursos')
+    return render(req, "cursos.html")
 
 def profesores(req):
 
-    return HttpResponse('vista de profesores')
+    return render(req, "profesores.html")
 
 def estudiantes(req):
 
-    return HttpResponse('vista de estudiantes')
+    return render(req, "estudiantes.html")
 
 
 
